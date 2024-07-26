@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+ul li:hover
+{
+    color: red;
+}
+li button
+{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.first-sec
+{
+    background-color: rgb(248, 235, 235);
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.subdiv-1,.subdiv-2,.subdiv-3,.subdiv-4
+{
+    display: flex;
+    align-items: center;
+}
+.subdiv-1 ul li,.subdiv-2 ul li,.subdiv-3 ul lu,.subdiv-4 ul li
+{
+    list-style-type: none;
+}
+.main-div{
+    display: flex;
+}
+.group
+{
+    display: flex;
+    margin-left: 150px;
+    width: 30px;
+}
+.team
+{
+    display: flex;
+    margin-left: 500px;
+}
